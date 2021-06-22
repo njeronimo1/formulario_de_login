@@ -1,0 +1,262 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lato"
+}
+.center{
+	max-width: 1100px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+.clear{clear: both;}
+
+header{
+	background: #002638;
+	color: white;
+	padding: 8px 0;
+}
+.logo{
+	float: left;
+	margin-top: 3px;
+	color: white;
+}
+.logo h2{
+	font-size: 29px;
+	font-weight: bolder;
+}
+form.form-login{
+	float: right;
+}
+.form-login .form-element{
+	display: inline-block;
+	margin-right: 15px;
+}
+.form-element label{
+	color: white;
+	font-size: 14px;
+}
+input[type=email], input[type=password]{
+	margin-top: 4px;
+	border: 0;
+	height: 22px;
+	padding-left: 3px;
+}
+input[type=submit]{
+	cursor: pointer;
+	border: 1px solid #4F4F4F;
+	border-radius: 7px;
+	background: #002638;
+	color: white;
+	padding: 3px 5px;
+}
+input[type=submit]:hover{
+	background: #808080
+}
+section.main{
+	background: linear-gradient(white, #D3D3D3);
+	padding: 40px 0;
+}
+.img-pessoas{
+	float: left;
+	width: 60%;
+}
+.img-pessoas img{
+	max-width: 100%;
+	position: relative;
+	top: -45px;
+}
+.abrir-conta{
+	float: left;
+	width: 40%;
+}
+.abrir-conta h2{
+	font-size: 30px;
+}
+.abrir-conta h3{
+	font-weight: normal;
+	font-size: 19px;
+	margin-top: 5px;
+}
+form.criar-conta{
+	margin-top: 15px;
+}
+.w50{
+	width: 50%;
+	padding: 0 5px;
+	float: left;
+}
+.w100{
+	width: 100%;
+	padding: 0 5px;
+	float: left;
+}
+form.criar-conta input{
+	width: 100%;
+	margin-top: 8px;
+}
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password]{
+	height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid #808080;
+}
+form.criar-conta input[type=submit]{
+	height: 40px;
+	background: linear-gradient(#006a96, #002638);
+	color: white;
+	cursor: pointer;
+	max-width: 200px;
+	font-size: 17px;
+	font-weight: normal;
+	margin-top: 10px;	
+}
+form.criar-conta input[type=submit]:hover{
+	background: #002638	
+}
+form .w100 h2{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 7px;
+	font-weight: normal; 
+}
+form select.nascimento{
+	float: left;
+	
+}
+.input-radio{
+	margin: 6px 10px;
+	float: left;
+}
+.input-radio h2{
+	display: inline-block;
+}
+.input-radio input[type=radio]{
+	width: auto !important;
+	display: inline-block;
+}
+body{
+	background: #002638;
+}
+section.slc{
+	max-width: 1100px;
+	margin: 0 auto
+}
+.texto{
+	margin: 0 auto;
+	max-width: 1100px;
+	margin-top:25px;
+	width: 100%;
+	color: white;
+	display: inline-block;
+}
+.direitos1{
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 25%;
+	color: white;
+	float: left;
+	display: inline-block;
+}
+.slc > h3{
+	margin-bottom: 20px;
+}
+
+li{
+	list-style-type: none;
+	margin: 10px 0;
+}
+a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #DCDCDC;
+}
+a:hover{
+	color: white
+}
+.direitos2{
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 25%;
+	color: white;
+	float: left;
+	display: inline-block;
+}
+.direitos3{
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 25%;
+	color: white;
+	float: left;
+	display: inline-block;
+}
+.direitos4{
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 25%;
+	color: white;
+	float: left;
+	display: inline-block;
+}
+@media screen and (max-width: 768px){
+	.logo{
+		float: none;
+		width: 100%;
+		text-align: center
+	}
+	form.form-login{
+		margin-top: 17px;
+		float: none;
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+
+	}
+	.form-login .form-element{
+		display: block;
+		margin: 10px 0;
+	}
+	.form-element label{
+		color: white;
+		font-size: 14px;
+	}
+	.form-element input[type=email], .form-element input[type=password]{
+		margin-top: 4px;
+		border: 0;
+		height: 22px;
+		padding-left: 3px;
+		width: 100%;
+		max-width: 320px;
+	}
+	.img-pessoas{
+		display: none;
+	}
+	.abrir-conta{
+		width: 100%;
+		float: none;
+		padding: 0 15px;
+	}
+	.slc{
+		padding: 20px;
+
+	}
+	.direitos1{
+		width: 20%;
+
+	}
+	.direitos2{
+		width: 20%;
+		margin-left: 25px;
+	}
+	.direitos3{
+		width: 20%;
+		margin-left: 25px;
+	}
+	.direitos4{
+		width: 20%;
+		margin-left: 25px;
+	}
+}	
